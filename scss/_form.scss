@@ -1,0 +1,33 @@
+@import "./base/colorsgit ";
+
+.formulario {
+    margin: 15px;
+    border: 5px solid $naranja;
+    border-radius: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 500px;
+    padding: 10px;
+    text-align: right;
+}
+
+.form-item {
+    margin: 5px;
+}
+
+.form-btn {
+    border-radius: 10px;
+    background-color: rgb(51, 45, 45);
+    margin: 15px;
+    padding: 5px;
+    border: $naranja solid 2px;
+    list-style-type: none;
+    text-align:center;
+    text-decoration: none;
+    color: white;
+}
+
+.form-btn:hover {
+    background-color: white;
+    color: rgb(223, 159, 77);
+}
