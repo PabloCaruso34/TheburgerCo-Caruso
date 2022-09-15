@@ -26,6 +26,12 @@ body {
 
 /*--------------------PRINCIPAL--------------------*/
 
+.extendTitprincipal{
+    font-size: 80px;
+    text-align: center;
+    color: rgb(10, 8, 8);
+}
+
 section div {
     background-color: rgba(223, 160, 77, 0.5);
     display: flex;
@@ -34,15 +40,11 @@ section div {
 
 
 .tituloPrincipal { 
-    font-size: 80px;
-    text-align: center;
-    color: rgb(10, 8, 8);
+   @extend .extendTitprincipal;
 }
 
 .bienvenidos {
-    font-size: 60px;
-    text-align: center;
-    color: rgb(10, 9, 9);
+    @extend.extendTitprincipal;
 }
 
 
