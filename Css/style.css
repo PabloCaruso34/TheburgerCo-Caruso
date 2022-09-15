@@ -106,7 +106,7 @@ body {
   background-position: center; }
 
 /*--------------------PRINCIPAL--------------------*/
-.extendTitprincipal, .tituloPrincipal, .bienvenidos {
+.textIndex, .tituloPrincipal, .bienvenidos {
   font-size: 80px;
   text-align: center;
   color: #0a0808; }
