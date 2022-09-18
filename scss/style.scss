@@ -40,11 +40,12 @@ section div {
 
 
 .tituloPrincipal { 
-   @extend .textIndex
+   @extend .textIndex;
    }
 
 .bienvenidos {
-    @extend .textIndex 
+    @extend .textIndex;
+        font-size: 120px;
    }
 
 /*------------------GRID PAGE PRODUCTOS-----------------*/
