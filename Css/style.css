@@ -116,6 +116,9 @@ section div {
   display: flex;
   flex-direction: column; }
 
+.bienvenidos {
+  font-size: 120px; }
+
 /*------------------GRID PAGE PRODUCTOS-----------------*/
 .catalogo {
   background-color: #df9f4d;
