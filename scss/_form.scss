@@ -1,4 +1,5 @@
 @import "./base/colors";
+@import "../scss/base/maps";
 
 .formulario {
     margin: 15px;
@@ -16,10 +17,10 @@
 }
 
 .form-btn {
+    margin: map-get($margenypadding, margin);
+    padding: map-get($margenypadding, padding);
     border-radius: 10px;
     background-color: rgb(51, 45, 45);
-    margin: 15px;
-    padding: 5px;
     border: $naranja solid 2px;
     list-style-type: none;
     text-align:center;

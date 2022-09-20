@@ -8,7 +8,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,11 +26,6 @@ body {
 
 /*--------------------PRINCIPAL--------------------*/
 
-.textIndex{
-    font-size: 80px;
-    text-align: center;
-    color: rgb(10, 8, 8);
-}
 
 section div {
     background-color: rgba(223, 160, 77, 0.5);
@@ -38,19 +33,19 @@ section div {
     flex-direction: column;
 }
 
-
-.tituloPrincipal { 
-   @extend .textIndex;
-   }
-
 .bienvenidos {
-    @extend .textIndex;
-        font-size: 120px;
-   }
+    font-size: 180px;
+    text-align: center;
+    color: rgb(10, 8, 8);
+}
+
+.tituloPrincipal {
+    @extend .bienvenidos;
+}
 
 /*------------------GRID PAGE PRODUCTOS-----------------*/
 
-.catalogo{
+.catalogo {
     background-color: rgb(223, 159, 77);
     padding: 3px;
     padding-left: 10px;
@@ -98,24 +93,24 @@ section div {
         flex-direction: column;
         align-items: center;
     }
-    
+
     header nav img {
         width: 150px;
         margin: 5px;
     }
-    
+
     nav {
         background-color: rgba(0, 0, 0, 0.5);
         border-bottom: rgb(223, 159, 77) solid 1px;
     }
-    
+
     nav ul {
         display: flex;
         justify-content: center;
         padding-bottom: 5px;
         padding-top: 20px;
     }
-    
+
     nav ul li {
         border-radius: 15px;
         background-color: rgb(51, 45, 45);
@@ -124,12 +119,12 @@ section div {
         border: rgb(223, 159, 77) solid 2px;
         display: flex;
         list-style-type: none;
-        text-align:center;
+        text-align: center;
         text-decoration: none;
         color: white;
     }
-    
-    
+
+
     nav ul li a {
         color: white;
         text-decoration: none;
@@ -138,20 +133,21 @@ section div {
     .grid-container {
         grid-template-columns: 2fr;
     }
-    .grid-item{
+
+    .grid-item {
         grid-column: span 1;
         grid-row: span 1;
     }
 }
 
-@media screen and (max-width:903px){
+@media screen and (max-width:903px) {
     nav ul {
         display: flex;
         flex-direction: column;
     }
 
-    nav ul li{
-        margin: 2px;   
+    nav ul li {
+        margin: 2px;
         align-items: center;
     }
 
